@@ -55,6 +55,7 @@ if token:
 
         if submission_result:
             print(f"Submission Result: {submission_result}")
+            print(solution)
             
     else:
         print("Failed to retrieve challenge. Unable to proceed with the challenge.")
